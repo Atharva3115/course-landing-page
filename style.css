@@ -1,0 +1,115 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  color: white;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero .btn {
+  background: #fff;
+  color: #4a00e0;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.features {
+  padding: 3rem 1rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.feature {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.trainer {
+  padding: 3rem 1rem;
+  background: #fff;
+  text-align: center;
+}
+
+.trainer img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.pricing {
+  background: #fffbec;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.pricing .btn {
+  background: #f39c12;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.countdown {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.faq {
+  padding: 3rem 1rem;
+}
+
+.faq-item {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.faq-item .answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.faq-item.open .answer {
+  max-height: 200px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
